@@ -2,7 +2,22 @@
 Using create-react-app tool to display images fetched from flickr's API in the browser.
 
 
+# Project requirements
+*Connect to flickr's API to retrieve Image data
+*Compose that data and display it in the browser
+*Implement routing in this project
 
+
+
+### Example of functional APP
+*Searching torta
+![](exImages/torta.png)
+
+*default page
+![](exImages/mountains.png)
+
+*pre-loaded islands link
+![](exImages/islands.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
