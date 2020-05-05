@@ -1,8 +1,10 @@
 # React gallery app
 Using create-react-app tool to display images fetched from flickr's API in the browser.
-To run this project you'll need to get an api_key from flickr and import it as api_key
-in the app.js file/component.
+To run this project you'll need to get an api_key from flickr. Put it inside a file named config.js inside the src directory.
+Here's an example of a good format for it. Then import the variable api_key into the app.js component/file.
 
+const api_key = (your API key here);
+export {api_key}
 
 # Project requirements
 *Connect to flickr's API to retrieve Image data
