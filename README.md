@@ -1,5 +1,7 @@
 # React gallery app
 Using create-react-app tool to display images fetched from flickr's API in the browser.
+To run this project you'll need to get an api_key from flickr and import it as api_key
+in the app.js file/component.
 
 
 # Project requirements
@@ -10,13 +12,14 @@ Using create-react-app tool to display images fetched from flickr's API in the b
 
 
 ### Example of functional APP
-*Searching torta
+
+##### Searching torta
 ![](exImages/torta.png)
 
-*default page
+##### default page
 ![](exImages/mountains.png)
 
-*pre-loaded islands link
+##### pre-loaded islands link
 ![](exImages/islands.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
