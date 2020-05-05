@@ -1,7 +1,7 @@
 import React from 'react'
 class SearchForm extends React.Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
         value: ""
     }
@@ -11,12 +11,15 @@ class SearchForm extends React.Component {
 
   handleChange(event) {
     let value = event.target.value
+    console.log("value", value)
     this.setState({value});
   }
 
   handleSubmit(event) {
     event.preventDefault();
-    alert(`this was submitted ${this.state.value}`)
+    console.log(`this was submitted ${this.state.value}`)
+    this.props.handleCallback(this.state.value)
+    //Maybe route back to default, maybe change name of default to current value
   }
   render() {
 

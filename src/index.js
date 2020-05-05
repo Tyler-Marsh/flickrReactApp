@@ -4,11 +4,6 @@ import ReactDOM from 'react-dom'
 import React from 'react'
 
 
-// photo container class
-// iterates over the array it receives
-
-
-
 ReactDOM.render(
   <App  />, document.getElementById('root')
 );

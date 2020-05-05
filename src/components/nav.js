@@ -2,8 +2,8 @@ import React from 'react'
 //export default App;
 import {NavLink} from 'react-router-dom'
 // make a nav stateless functional component
-
-const Nav = () => {
+// use style fix css 
+const Nav = (props) => {
   return (
     <div>
         <nav className="main-nav">
