@@ -8,7 +8,9 @@ export {api_key}
 
 # Project requirements
 *Connect to flickr's API to retrieve Image data
+
 *Compose that data and display it in the browser
+
 *Implement routing in this project
 
 
